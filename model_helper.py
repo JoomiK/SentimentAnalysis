@@ -20,3 +20,5 @@ def classify_list(classifier, token_list):
         value = classifier.classify(find_features(nested_list))
         values.append(value)
     return values
+
+    

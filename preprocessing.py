@@ -125,3 +125,5 @@ def make_col_lowercase(df, list_of_cols):
     for string in list_of_cols:
         df['lower_'+ string] = df[string].apply(lambda tweet: lower_text(tweet))
     return df
+
+    
